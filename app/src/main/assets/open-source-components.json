@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "name": "Kotlin",
+      "packageVersion": "1.9.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/JetBrains/kotlin",
+      "packageUrl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime"
+    },
+    {
+      "name": "Kotlin Coroutines",
+      "packageVersion": "1.7.3",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/Kotlin/kotlinx.coroutines",
+      "packageUrl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.7.3",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime"
+    },
+    {
+      "name": "AndroidX Core KTX",
+      "packageVersion": "1.10.1",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/jetpack/androidx",
+      "packageUrl": "pkg:maven/androidx.core/core-ktx@1.10.1",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime"
+    },
+    {
+      "name": "AndroidX Activity Compose",
+      "packageVersion": "1.7.2",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/jetpack/androidx",
+      "packageUrl": "pkg:maven/androidx.activity/activity-compose@1.7.2",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime"
+    },
+    {
+      "name": "AndroidX Lifecycle",
+      "packageVersion": "2.6.1",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/jetpack/androidx",
+      "packageUrl": "pkg:maven/androidx.lifecycle/lifecycle-runtime-ktx@2.6.1",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime"
+    },
+    {
+      "name": "AndroidX VectorDrawable",
+      "packageVersion": "1.1.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/jetpack/androidx",
+      "packageUrl": "pkg:maven/androidx.vectordrawable/vectordrawable-animated@1.1.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; required by APNG4Android"
+    },
+    {
+      "name": "Jetpack Compose",
+      "packageVersion": "2023.06.01 BOM",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/jetpack/compose",
+      "packageUrl": "pkg:maven/androidx.compose/compose-bom@2023.06.01",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime"
+    },
+    {
+      "name": "Material Icons Extended",
+      "packageVersion": "1.4.x",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://fonts.google.com/icons",
+      "packageUrl": "pkg:maven/androidx.compose.material/material-icons-extended",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime"
+    },
+    {
+      "name": "Coil",
+      "packageVersion": "2.4.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/coil-kt/coil",
+      "packageUrl": "pkg:maven/io.coil-kt/coil-compose@2.4.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; local image loading and downsampling"
+    },
+    {
+      "name": "Coil GIF",
+      "packageVersion": "2.4.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/coil-kt/coil",
+      "packageUrl": "pkg:maven/io.coil-kt/coil-gif@2.4.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; animated GIF decoder"
+    },
+    {
+      "name": "Media3 ExoPlayer",
+      "packageVersion": "1.1.1",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/media/media3",
+      "packageUrl": "pkg:maven/androidx.media3/media3-exoplayer@1.1.1",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; built-in video playback engine"
+    },
+    {
+      "name": "Media3 UI",
+      "packageVersion": "1.1.1",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/media/media3",
+      "packageUrl": "pkg:maven/androidx.media3/media3-ui@1.1.1",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; PlayerView playback controls"
+    },
+    {
+      "name": "Media3 Session",
+      "packageVersion": "1.1.1",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/media/media3",
+      "packageUrl": "pkg:maven/androidx.media3/media3-session@1.1.1",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; MediaSessionService, foreground audio playback and system media notification"
+    },
+    {
+      "name": "Media3 Common",
+      "packageVersion": "1.1.1",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/media/media3",
+      "packageUrl": "pkg:maven/androidx.media3/media3-common@1.1.1",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; Media3 shared player API"
+    },
+    {
+      "name": "Coil Video",
+      "packageVersion": "2.4.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/coil-kt/coil",
+      "packageUrl": "pkg:maven/io.coil-kt/coil-video@2.4.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; video first-frame decoder via MediaMetadataRetriever"
+    },
+    {
+      "name": "APNG4Android",
+      "packageVersion": "3.0.5",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/penfeizhou/APNG4Android",
+      "packageUrl": "pkg:maven/com.github.penfeizhou.android.animation/apng@3.0.5",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; animated PNG decoder"
+    },
+    {
+      "name": "Okio",
+      "packageVersion": "3.3.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/square/okio",
+      "packageUrl": "pkg:maven/com.squareup.okio/okio-jvm@3.3.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; transitive dependency of Coil"
+    },
+    {
+      "name": "zip4j",
+      "packageVersion": "2.11.5",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/srikanth-lingala/zip4j",
+      "packageUrl": "pkg:maven/net.lingala.zip4j/zip4j@2.11.5",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; advanced ZIP compression, AES encryption and split archives"
+    },
+    {
+      "name": "NanoHTTPD",
+      "packageVersion": "2.3.1",
+      "licenseExpression": "BSD-3-Clause",
+      "downloadLocation": "https://github.com/NanoHttpd/nanohttpd",
+      "packageUrl": "pkg:maven/org.nanohttpd/nanohttpd@2.3.1",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; embedded LAN HTTP server for Wi-Fi file transfer"
+    },
+    {
+      "name": "ZXing Core",
+      "packageVersion": "3.5.2",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/zxing/zxing",
+      "packageUrl": "pkg:maven/com.google.zxing/core@3.5.2",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; QR code generation for LAN transfer URL"
+    },
+    {
+      "name": "Apache Commons Net",
+      "packageVersion": "3.9.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://commons.apache.org/proper/commons-net/",
+      "packageUrl": "pkg:maven/commons-net/commons-net@3.9.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; FTP client for network storage browsing and transfer"
+    },
+    {
+      "name": "apksig",
+      "packageVersion": "8.1.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://android.googlesource.com/platform/tools/apksig/",
+      "packageUrl": "pkg:maven/com.android.tools.build/apksig@8.1.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; APK v1/v2 signing engine"
+    },
+    {
+      "name": "AndroidX Biometric",
+      "packageVersion": "1.1.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://developer.android.com/jetpack/androidx/releases/biometric",
+      "packageUrl": "pkg:maven/androidx.biometric/biometric@1.1.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; fingerprint/face unlock for the private vault"
+    },
+    {
+      "name": "SMBJ",
+      "packageVersion": "0.11.5",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://github.com/hierynomus/smbj",
+      "packageUrl": "pkg:maven/com.hierynomus/smbj@0.11.5",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; SMB2/3 client for LAN shares"
+    },
+    {
+      "name": "OkHttp",
+      "packageVersion": "4.11.0",
+      "licenseExpression": "Apache-2.0",
+      "downloadLocation": "https://square.github.io/okhttp/",
+      "packageUrl": "pkg:maven/com.squareup.okhttp3/okhttp@4.11.0",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; WebDAV PROPFIND/GET/PUT client"
+    },
+    {
+      "name": "SLF4J API",
+      "packageVersion": "1.7.32",
+      "licenseExpression": "MIT",
+      "downloadLocation": "https://www.slf4j.org/",
+      "packageUrl": "pkg:maven/org.slf4j/slf4j-api@1.7.32",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; transitive logging facade for SMBJ"
+    },
+    {
+      "name": "Bouncy Castle Provider",
+      "packageVersion": "1.70",
+      "licenseExpression": "MIT",
+      "downloadLocation": "https://www.bouncycastle.org/",
+      "packageUrl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70",
+      "isCopyleft": false,
+      "integrationBoundary": "APK runtime; transitive cryptography provider for SMBJ"
+    },
+    {
+      "name": "JUnit 4",
+      "packageVersion": "4.13.2",
+      "licenseExpression": "EPL-1.0",
+      "downloadLocation": "https://junit.org/junit4/",
+      "packageUrl": "pkg:maven/junit/junit@4.13.2",
+      "isCopyleft": false,
+      "integrationBoundary": "test only; not packaged in APK"
+    }
+  ]
+}

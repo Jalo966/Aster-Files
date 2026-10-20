@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Folder body -->
+    <path
+        android:fillColor="#F7F0DA"
+        android:pathData="M23,38 C23,33.6 26.6,31 31,31 L45,31 C47.8,31 49.6,32.1 51.2,34.2 L55,39 L77,39 C81.4,39 85,42.6 85,47 L85,73 C85,77.4 81.4,81 77,81 L31,81 C26.6,81 23,77.4 23,73 Z" />
+    <!-- Folder inner paper / contrast -->
+    <path
+        android:fillColor="#E9DDBE"
+        android:pathData="M23,47 L85,47 L85,73 C85,77.4 81.4,81 77,81 L31,81 C26.6,81 23,77.4 23,73 Z" />
+    <!-- Eight-point Aster -->
+    <path
+        android:fillColor="#123C32"
+        android:pathData="M54.00,46.00 L56.60,55.72 L65.31,50.69 L60.28,59.40 L70.00,62.00 L60.28,64.60 L65.31,73.31 L56.60,68.28 L54.00,78.00 L51.40,68.28 L42.69,73.31 L47.72,64.60 L38.00,62.00 L47.72,59.40 L42.69,50.69 L51.40,55.72 Z" />
+    <!-- Small warm center -->
+    <path
+        android:fillColor="#E8B85B"
+        android:pathData="M54,58 A4,4 0 1,1 53.9,58 Z" />
+</vector>
